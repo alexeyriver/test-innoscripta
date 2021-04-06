@@ -48,7 +48,7 @@ function Todo(props) {
   const DeleteHandler = (e) => {
     dispatch(DeleteTodo(e));
   };
-  console.log(state);
+  
 
   return (
     <div>
